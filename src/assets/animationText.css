@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  font-size: 20px;
+  padding-top: 15px;
+  background-image: linear-gradient(to right,  grey 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:before{
+  content: '';
+	background: #131414;
+	display: block;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	width: 0;
+	height: 3px;
+	transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+  background-position: 0;
+  cursor: pointer
+}
+
+.button:hover::before {
+  width: 100%;
+}
