@@ -25,7 +25,7 @@ npm run serve
 ![tree-vue-klerk-3](https://user-images.githubusercontent.com/93074634/210869623-274154ef-fa9e-4bdb-94c6-a7271079d125.gif)
 <br/>
 
-- каждая рубрика должна быть ссылкой (в АПИ передаётся относительный адрес на https://www.klerk.ru), 
+- каждая рубрика должна быть ссылкой (в АПИ передаётся относительный адрес на [klerk](https://www.klerk.ru)), 
 ![tree-vue-klerk-4](https://user-images.githubusercontent.com/93074634/210871773-1b0f85a1-b0ca-46df-8000-48f0d36b9199.gif)
 <br/>
 
